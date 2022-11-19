@@ -10,11 +10,11 @@ import { Footer } from '../exp-index'
 const Container = () => {
 
     const [searchOption, setSearchOption] = useState("random");
-    // const API_KEY = "6f4f883253eb4353a4acac786b60ded9";
+    const API_KEY = "6f4f883253eb4353a4acac786b60ded9";
     // const API_KEY = "417c3d210bf243699e75cd9a2662e1a4";
     // const API_KEY = "ac2274131dbf40e284a2fadba0abecbf";
     // const API_KEY = "d1f70067f78248078e71a58983a18e5f";
-    const API_KEY = "88cbb41354b04d13858d7f377e338113";
+    // const API_KEY = "88cbb41354b04d13858d7f377e338113";
     // const API_KEY = "472f31ce4a5e4e5792ca9ab6d1833e51";
 
     const BASE_URL = ` https://api.spoonacular.com/recipes/${searchOption}?number=12&apiKey=${API_KEY}`;
